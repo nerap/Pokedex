@@ -12,9 +12,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBOutlet var textField : UITextField!
-    @IBOutlet var button : UIButton!
-    @IBOutlet var text : UILabel!
+
 
     
     override func viewDidLoad() {
@@ -22,21 +20,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func clic(sender : UIButton){
-        let response = readJSONFromFile(fileName: "pokemon")
-        if let userInfo = response as? [String: Any] {
-            let email = userInfo as? String
-        }
         
-    }
+    
 
-    //Ouvre une popup
-    func alert(title: String, message: String) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let ok = UIAlertAction(title: "Ok", style: UIAlertAction.Style.cancel, handler: nil)
-        alert.addAction(ok)
-        self.present(alert, animated: true, completion: nil)
-    }
+
     
     
     func getPokemons(completion: @escaping (([Pokemon]) -> Void)) {
