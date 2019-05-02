@@ -31,7 +31,7 @@ struct JSONParser {
     }
     
     func bindToType(jsonArray: [JSON]) -> [Type] {
-       // let types = jsonArray.compactMap { Type(rawValue: "Water") }
+        let types = jsonArray.compactMap { Type(rawValue: $0.stringValue) }
         return [Type]()
     }
     
