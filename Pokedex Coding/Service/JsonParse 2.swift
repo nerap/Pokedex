@@ -1,4 +1,10 @@
 
+import SwiftyJSON
+
+import Foundation
+import Alamofire
+
+
 struct JSONParser {
     
     private enum Constants {
@@ -21,9 +27,23 @@ struct JSONParser {
                        imageUrl: json[Constants.imageUrlKey].stringValue,
                        description: json[Constants.descriptionKey].stringValue,
                        types: bindToType(jsonArray: json[Constants.typesKey].arrayValue),
-                       evolutions: bindToEvolutions(jsonArray: json[Constants.evolutionsKey].arrayValue))
+                       evolutions: [Evolution]())
+    }
+    
+    func bindToType(jsonArray: [JSON]) -> [Type] {
+       // let types = jsonArray.compactMap { Type(rawValue: "Water") }
+        return [Type]()
+    }
+    
+    func bindToEvolutions(array : Array<Evolution>){
+        
+    }
+    
+    
+    
 }
-}
+
+
 
 
 

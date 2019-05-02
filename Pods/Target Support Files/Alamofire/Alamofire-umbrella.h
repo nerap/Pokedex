@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Pokedex_CodingUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Pokedex_CodingUITestsVersionString[];
+FOUNDATION_EXPORT double AlamofireVersionNumber;
+FOUNDATION_EXPORT const unsigned char AlamofireVersionString[];
 
