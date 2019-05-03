@@ -38,11 +38,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pokedex Coding/Controller/PokemonViewController.swift"
-            timestampString = "578497573.151799"
+            timestampString = "578562583.8141741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
@@ -51,14 +51,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Pokedex_Coding.PokemonViewController.pokemons.getter : Swift.Array&lt;Pokedex_Coding.Pokemon&gt;"
                   moduleName = "Pokedex Coding"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/piquetelise/Desktop/IOS/Pokedex%20warrior/Pokedex/Pokedex%20Coding/Controller/PokemonViewController.swift"
-                  timestampString = "578497573.32749"
+                  timestampString = "578561058.7335939"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -66,14 +66,14 @@
                   offsetFromSymbolStart = "114">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Pokedex_Coding.PokemonViewController.pokemons.setter : Swift.Array&lt;Pokedex_Coding.Pokemon&gt;"
                   moduleName = "Pokedex Coding"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/piquetelise/Desktop/IOS/Pokedex%20warrior/Pokedex/Pokedex%20Coding/Controller/PokemonViewController.swift"
-                  timestampString = "578497573.329734"
+                  timestampString = "578561058.735689"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -81,14 +81,14 @@
                   offsetFromSymbolStart = "128">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Pokedex_Coding.PokemonViewController.pokemons.modify : Swift.Array&lt;Pokedex_Coding.Pokemon&gt;"
                   moduleName = "Pokedex Coding"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/piquetelise/Desktop/IOS/Pokedex%20warrior/Pokedex/Pokedex%20Coding/Controller/PokemonViewController.swift"
-                  timestampString = "578497573.331423"
+                  timestampString = "578561058.738206"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -96,14 +96,14 @@
                   offsetFromSymbolStart = "18">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Pokedex_Coding.PokemonViewController.pokemons.modify : Swift.Array&lt;Pokedex_Coding.Pokemon&gt; with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "Pokedex Coding"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/piquetelise/Desktop/IOS/Pokedex%20warrior/Pokedex/Pokedex%20Coding/Controller/PokemonViewController.swift"
-                  timestampString = "578497573.3330801"
+                  timestampString = "578561058.73996"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -111,14 +111,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Pokedex_Coding.PokemonViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Pokedex_Coding.PokemonViewController"
                   moduleName = "Pokedex Coding"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/piquetelise/Desktop/IOS/Pokedex%20warrior/Pokedex/Pokedex%20Coding/Controller/PokemonViewController.swift"
-                  timestampString = "578497573.334744"
+                  timestampString = "578561058.741878"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -126,14 +126,14 @@
                   offsetFromSymbolStart = "203">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Pokedex_Coding.PokemonViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Pokedex_Coding.PokemonViewController&gt;"
                   moduleName = "Pokedex Coding"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/piquetelise/Desktop/IOS/Pokedex%20warrior/Pokedex/Pokedex%20Coding/Controller/PokemonViewController.swift"
-                  timestampString = "578497573.343271"
+                  timestampString = "578561058.743789"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -146,15 +146,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pokedex Coding/Controller/PokemonViewController.swift"
-            timestampString = "578497573.151883"
+            timestampString = "578562583.8143229"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
