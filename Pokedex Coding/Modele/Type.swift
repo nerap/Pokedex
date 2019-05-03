@@ -27,6 +27,7 @@ enum Type : String{
     case rock
     case steel
     case water
+    case dark
     
     func getIcon(type : [Type]) -> UIImage?{
     
@@ -63,10 +64,97 @@ enum Type : String{
             return UIImage(named : "rock")
         case .steel:
             return UIImage(named : "steel")
-        default:
+        case .water:
             return UIImage(named : "water")
+        default:
+            return UIImage(named : "dark")
         }
         
     }
+    
+    
+    func getWeakness(type: [Type]) -> [Type]{
+        switch self {
+        case .bug:
+            return [.flying, .rock, .fire]
+        case .dragon:
+            return [.ice, .dragon, .fairy]
+        case .electric:
+            return [.ground]
+        case .fairy:
+            return [.poison, .steel]
+        case .fighting:
+            return [.flying, .psychic, .fairy]
+        case .fire:
+            return [.ground, .rock, .water]
+        case .flying:
+            return [.rock, .electric, .ice]
+        case .ghost:
+            return [.ghost, .dark]
+        case .grass:
+            return [.flying, .poison, .bug, .fire, .ice]
+        case .ground:
+            return [.water, .grass, .ice]
+        case .ice:
+            return [.fighting, .rock, .steel, .fire]
+        case .normal:
+            return [.fighting]
+        case .poison:
+            return [.ground, .psychic]
+        case .psychic:
+            return [.bug, .ghost, .dark]
+        case .rock:
+            return [.fighting, .ground, .steel, .water, .grass]
+        case .steel:
+            return [.fighting, .ground, .fire]
+        case .water:
+            return [.grass, .electric]
+        default:
+            return [.fighting, .bug, .fairy]
+        }
+    }
+    
+    
+    func getStrongest(type: [Type]) -> [Type]{
+        switch self {
+        case .bug:
+            return [.grass, .psychic, .dark]
+        case .dragon:
+            return [.dragon]
+        case .electric:
+            return [.flying, .water]
+        case .fairy:
+            return [.fighting, .dragon, .dark]
+        case .fighting:
+            return [.normal, .rock, .steel, .ice, .dark]
+        case .fire:
+            return [.bug, .steel, .grass, .ice]
+        case .flying:
+            return [.fighting, .bug, .grass]
+        case .ghost:
+            return [.ghost, .psychic]
+        case .grass:
+            return [.ground, .rock, .water]
+        case .ground:
+            return [.poison, .rock, .steel, .fire, .electric]
+        case .ice:
+            return [.flying, .ground, .grass, .dragon]
+        case .normal:
+            return []
+        case .poison:
+            return [.grass, .fairy]
+        case .psychic:
+            return [.fighting, .poison]
+        case .rock:
+            return [.flying, .bug, .fire, .ice]
+        case .steel:
+            return [.fighting, .ground, .fire]
+        case .water:
+            return [.ground, .rock, .fire]
+        default:
+            return [.ghost, .psychic]
+        }
+    }
+    
 }
 

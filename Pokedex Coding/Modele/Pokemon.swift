@@ -35,4 +35,5 @@ class Pokemon {
         self.types = types
         self.evolutions = evolutions
     }
+
 }
